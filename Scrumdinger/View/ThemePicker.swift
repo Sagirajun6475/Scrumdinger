@@ -9,6 +9,7 @@ import SwiftUI
 
 
 struct ThemePicker: View {
+    
     @Binding var selection: Theme
     
     var body: some View {
@@ -18,10 +19,9 @@ struct ThemePicker: View {
                     .tag(theme)
             }
         }
-        .pickerStyle(.navigationLink)
+        .pickerStyle(.wheel)
     }
 }
-
 
 struct ThemePicker_Previews: PreviewProvider {
     static var previews: some View {

@@ -21,7 +21,6 @@ struct ThemeView: View {
     }
 }
 
-
 struct ThemeView_Previews: PreviewProvider {
     static var previews: some View {
         ThemeView(theme: .buttercup)
